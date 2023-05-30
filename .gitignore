@@ -1,0 +1,4 @@
+./dev/dist/
+./dev/dist_heatmap/
+./dist
+node_modules

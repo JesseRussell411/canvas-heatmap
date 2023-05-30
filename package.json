@@ -1,0 +1,19 @@
+{
+  "name": "heatmap-generator",
+  "version": "1.0.0",
+  "description": "An object for drawing heatmaps onto a canvas with its 2d context.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "build_dev": "tsc --outDir ./dev/heatmap_dist && bundle"
+  },
+  "author": "Jesse Russell",
+  "license": "ISC",
+  "dependencies": {
+    "color": "^4.2.3"
+  },
+  "devDependencies": {
+    "@types/color": "^3.0.3"
+  }
+}
